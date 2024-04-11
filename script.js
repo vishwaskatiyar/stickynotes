@@ -1,3 +1,5 @@
+const btn = document.getElementById("btn");
+btn.addEventListener("click", addNote);
 function addNote() {
     var title = document.getElementById('noteTitle').value;
     var content = document.getElementById('noteContent').value;
